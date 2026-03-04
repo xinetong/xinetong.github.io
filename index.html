@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的收藏导航</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        }
+        body {
+            background-color: #f5f7fa;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+            overflow: hidden;
+        }
+        h1 {
+            padding: 24px;
+            background-color: #42b983;
+            color: white;
+            font-size: 24px;
+            font-weight: 600;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 16px 24px;
+            text-align: left;
+            border-bottom: 1px solid #eaecef;
+        }
+        th {
+            background-color: #f8f9fa;
+            font-weight: 600;
+            color: #333;
+        }
+        tr:hover {
+            background-color: #f5f7fa;
+        }
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            h1 {
+                font-size: 20px;
+                padding: 16px;
+            }
+            th, td {
+                padding: 12px 16px;
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>我的收藏导航</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>名称</th>
+                    <th>链接</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- 在这里添加你的链接，复制下面的行即可 -->
+                <tr>
+                    <td>12306抢票</td>
+                    <td><a href="https://github.com/pjialin/py12306" target="_blank">https://github.com/pjialin/py12306</a></td>
+                </tr>
+                <tr>
+                    <td>hello算法</td>
+                    <td><a href="https://github.com/krahets/hello-algo" target="_blank">https://github.com/krahets/hello-algo</a></td>
+                </tr>
+                <tr>
+                    <td>Spring 全家桶学习教程</td>
+                    <td><a href="https://github.com/wuyouzhuguli/SpringAll" target="_blank">https://github.com/wuyouzhuguli/SpringAll</a></td>
+                </tr>
+                <tr>
+                    <td>最良心的python教程</td>
+                    <td><a href="https://github.com/walter201230/Python" target="_blank">https://github.com/walter201230/Python</a></td>
+                </tr>
+                <tr>
+                    <td>程序员面试题合集</td>
+                    <td><a href="https://github.com/doocs/leetcode?tab=readme-ov-file" target="_blank">https://github.com/doocs/leetcode?tab=readme-ov-file</a></td>
+                </tr>
+                <!-- 继续添加更多链接... -->
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
